@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProductNameTableViewCell" id="KGk-i7-Jjw" customClass="ProductNameTableViewCell" customModule="My_Fridge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm0-Nn-zoe">
+                        <rect key="frame" x="16" y="12" width="41.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UHw-Qe-MLx">
+                        <rect key="frame" x="67.5" y="11" width="236.5" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="productNameChanged:" destination="KGk-i7-Jjw" eventType="editingChanged" id="IHy-3c-n90"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UHw-Qe-MLx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Vm0-Nn-zoe" secondAttribute="trailing" constant="10" id="4j2-Gp-Oam"/>
+                    <constraint firstItem="UHw-Qe-MLx" firstAttribute="width" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.33" id="7ie-Cj-2ZW"/>
+                    <constraint firstItem="Vm0-Nn-zoe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ImC-eE-pJT"/>
+                    <constraint firstItem="UHw-Qe-MLx" firstAttribute="leading" secondItem="Vm0-Nn-zoe" secondAttribute="trailing" priority="750" constant="10" id="PKF-Ys-bKj"/>
+                    <constraint firstAttribute="trailing" secondItem="UHw-Qe-MLx" secondAttribute="trailing" constant="16" id="Yb0-Xp-zPR"/>
+                    <constraint firstItem="UHw-Qe-MLx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hzv-Rp-NNS"/>
+                    <constraint firstItem="UHw-Qe-MLx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="iwN-jl-Z3H"/>
+                    <constraint firstItem="Vm0-Nn-zoe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="qLZ-LH-Wmu"/>
+                    <constraint firstItem="Vm0-Nn-zoe" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qnj-rS-E3o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="productNameLabel" destination="Vm0-Nn-zoe" id="xYd-Q4-weK"/>
+                <outlet property="productNameTextField" destination="UHw-Qe-MLx" id="QlW-Uz-tJ5"/>
+            </connections>
+            <point key="canvasLocation" x="141" y="129"/>
+        </tableViewCell>
+    </objects>
+</document>

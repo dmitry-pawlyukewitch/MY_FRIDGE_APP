@@ -1,0 +1,32 @@
+// MARK: - General
+
+"General.Cancel" = "Cancel";
+
+// MARK: - MyFridge
+
+"MyFridge.ViewTitle" = "My Fridge";
+"MyFridge.TableViewHeader.ReadyForEat" = "Ready for eat";
+"MyFridge.TableViewFooter.ReadyForEat" = "These products have not yet expired";
+"MyFridge.TableViewHeader.Expired" = "Expired";
+"MyFridge.TableViewFooter.Expired" = "These products have expired";
+"MyFridge.SwipeAction.Delete" = "Delete";
+"MyFridge.SwipeAction.Eat" = "Eat";
+"MyFridge.EmptyMessage" = "There are no added products";
+
+// MARK: - Product
+
+"Product.ViewTitle.Info" = "Product Info";
+"Product.ViewTitle.Add" = "Add Product";
+"Product.ToolbarButtonTitle.Delete" = "Delete";
+"Product.ToolbarButtonTitle.Eat" = "Eat";
+"Product.DiscardChangesAlert.Message" = "Are you sure you want to discard this product?";
+"Product.DiscardChangesAlert.Discard" = "Discard";
+
+// MARK: - ProductExpirationDateTableViewCell
+
+"ProductExpirationDateTableViewCell.Title" = "Expiration Date";
+
+// MARK: - ProductNameTableViewCell
+
+"ProductNameTableViewCell.Title" = "Name";
+"ProductNameTableViewCell.Placeholder" = "Name";

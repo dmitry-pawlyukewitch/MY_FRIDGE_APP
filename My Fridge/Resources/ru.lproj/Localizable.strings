@@ -1,0 +1,32 @@
+// MARK: - General
+
+"General.Cancel" = "Отмена";
+
+// MARK: - MyFridge
+
+"MyFridge.ViewTitle" = "Мой Холодильник";
+"MyFridge.TableViewHeader.ReadyForEat" = "Годны к употреблению";
+"MyFridge.TableViewFooter.ReadyForEat" = "Срок годности этих продуктов еще не истек";
+"MyFridge.TableViewHeader.Expired" = "Просроченые продукты";
+"MyFridge.TableViewFooter.Expired" = "Срок годности этих продуктов истек";
+"MyFridge.SwipeAction.Delete" = "Удалить";
+"MyFridge.SwipeAction.Eat" = "Съесть";
+"MyFridge.EmptyMessage" = "Нет добавленных продуктов";
+
+// MARK: - Product
+
+"Product.ViewTitle.Info" = "Информация";
+"Product.ViewTitle.Add" = "Добавить продукт";
+"Product.ToolbarButtonTitle.Delete" = "Удалить";
+"Product.ToolbarButtonTitle.Eat" = "Съесть";
+"Product.DiscardChangesAlert.Message" = "Вы уверены что хотите не сохранить изменения?";
+"Product.DiscardChangesAlert.Discard" = "Не сохранять";
+
+// MARK: - ProductExpirationDateTableViewCell
+
+"ProductExpirationDateTableViewCell.Title" = "Срок годности";
+
+// MARK: - ProductNameTableViewCell
+
+"ProductNameTableViewCell.Title" = "Название";
+"ProductNameTableViewCell.Placeholder" = "Название";
